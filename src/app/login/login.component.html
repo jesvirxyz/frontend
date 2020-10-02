@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="login col-md-6 offset-md-3">
+    <form [formGroup]="loginForm">
+      <h4>LOGIN TO YOUR ACCOUNT</h4>
+      <div class="form-group">
+        <label for="email"> </label>
+        <input
+          formControlName="email"
+          type="email"
+          name="email"
+          class="form-control"
+          id="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="password"></label>
+        <input
+          formControlName="password"
+          type="password"
+          name="password"
+          class="form-control"
+          id="password"
+          placeholder="Password"
+          required
+        />
+      </div>
+
+      <div class="clm">
+        <button type="submit" class="btn btn-primary" (click)="login()">
+          Login
+        </button>
+        <a class="register" href="/register">Create an account</a>
+      </div>
+    </form>
+  </div>
+</div>

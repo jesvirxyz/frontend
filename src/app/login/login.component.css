@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+h3 {
+  text-align: center;
+}
+button {
+  margin-top: 20px;
+  border-color: #3c4252;
+  background-color: #3c4252;
+  width: 50%;
+}
+
+button:hover {
+  border-color: #555e72;
+  background-color: #555e72;
+}
+.clm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register {
+  margin-top: 10px;
+}
